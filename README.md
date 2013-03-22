@@ -14,7 +14,7 @@ Failcoder theme is designed to work with the latest [development build](http://w
 
 ### Using Sublime Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Failcoder Theme via the `Package Control: Install Package` menu item. The Failcoder Theme package is listed as `Theme - Failcoder` in the packages list.
+If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Failcoder Theme via the `Package Control: Install Package` menu item. The Failcoder Theme package is listed as `Failcoder Color Scheme` in the packages list.
 
 ### Download Manually
 

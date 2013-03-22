@@ -1,6 +1,3 @@
-failcoder-theme
-===============
-
 # Failcoder - Theme
 
 Custom UI theme for Sublime Text 2/3.

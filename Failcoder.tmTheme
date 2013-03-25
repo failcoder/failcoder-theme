@@ -221,24 +221,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Units</string>
-			<key>scope</key>
-			<string>keyword.other.unit.html, support.constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f99157</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Integers</string>
 			<key>scope</key>
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f99157</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -418,7 +407,7 @@
 			<key>name</key>
 			<string>Selector</string>
 			<key>scope</key>
-			<string>meta.selector</string>
+			<string>meta.selector.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -512,6 +501,17 @@
                 <string>#cfca95</string>
             </dict>
         </dict>
+        <dict>
+			<key>name</key>
+			<string>HTML/XML: Units</string>
+			<key>scope</key>
+			<string>keyword.other.unit.html, support.constant.html, keyword.other.unit.xml, support.constant.xml</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#f99157</string>
+			</dict>
+		</dict>
         <dict>
 			<key>name</key>
 			<string>HTML/XML: Entity</string>
@@ -624,37 +624,13 @@
         </dict>
         <dict>
 			<key>name</key>
-			<string>JS/CSS: Attributes</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.js, entity.other.attribute-name.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#99cc99</string>
-			</dict>
-		</dict>
-        <dict>
-			<key>name</key>
 			<string>CSS: Keywords</string>
 			<key>scope</key>
 			<string>constant.other.color.rgb-value.css, support.constant.property-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#afcf8f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Selector</string>
-			<key>scope</key>
-			<string>meta.selector.css, entity.name.tag.css, entity.other.attribute-name.id.css, entity.other.attribute-name.class.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#9f82cf</string>
+				<string>#efefef</string>
 			</dict>
 		</dict>
 		<dict>
@@ -672,13 +648,11 @@
 			<key>name</key>
 			<string>CSS: Separators</string>
 			<key>scope</key>
-			<string>punctuation.separator.key-value.css,
-punctuation.definition.entity.css,
-punctuation.terminator.rule.css</string>
+			<string>punctuation.separator.key-value.css, punctuation.terminator.rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bbbbbb</string>
+				<string>#ffffff</string>
 			</dict>
 		</dict>
 		<dict>
@@ -698,22 +672,11 @@ punctuation.terminator.rule.css</string>
 			<key>name</key>
 			<string>CSS: Tags</string>
 			<key>scope</key>
-			<string>entity.name.tag.css</string>
+			<string>entity.name.tag.css, meta.selector.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e97060</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Units</string>
-			<key>scope</key>
-			<string>keyword.other.unit.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ffc846</string>
 			</dict>
 		</dict>
 		<dict>
@@ -724,30 +687,40 @@ punctuation.terminator.rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e0d978</string>
+				<string>#e0dc78</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: ID</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ef903c</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Units</string>
+			<key>scope</key>
+			<string>keyword.other.unit.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c090cf</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: Properties</string>
 			<key>scope</key>
-			<string>support.type.property-name.css</string>
+			<string>support.type.property-name.css, meta.property-name.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#8ea4d7</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Meta</string>
-			<key>scope</key>
-			<string>meta.property-name.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6e7281</string>
-				
+				<string>#8ea4c7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -770,6 +743,17 @@ punctuation.terminator.rule.css</string>
 			<dict>
 				<key>foreground</key>
 				<string>#dbb566</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JS: Attributes</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#99cc99</string>
 			</dict>
 		</dict>
 		<dict>
@@ -802,7 +786,7 @@ punctuation.terminator.rule.css</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9c50f1</string>
+				<string>#df7925</string>
 			</dict>
 		</dict>
 		<dict>

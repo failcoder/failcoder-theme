@@ -129,13 +129,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>DOM</string>
+			<string>DOM, Support Functions</string>
 			<key>scope</key>
-			<string>support.function.dom, support.constant.dom</string>
+			<string>support.function.dom, support.constant.dom, support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dfdf9f</string>
+				<string>#dfdf96</string>
 			</dict>
 		</dict>
 		<dict>
@@ -372,7 +372,7 @@
 			<key>name</key>
 			<string>Support, Storage</string>
 			<key>scope</key>
-			<string>support.function, support.other.variable, storage</string>
+			<string>support.other.variable, storage</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

@@ -61,20 +61,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#CF5C58</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag Attribute</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#EC7600</string>
+				<string>#ca9125</string>
 			</dict>
 		</dict>
 		<dict>
@@ -94,11 +81,11 @@
 			<key>name</key>
 			<string>Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.parameters, punctuation.definition.array</string>
+			<string>punctuation.definition.parameters, punctuation.definition.array</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e1dfd9</string>
+				<string>#1e9ae0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -162,7 +149,7 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -428,17 +415,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Attribute IDs</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.id</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6699cc</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Headings</string>
 			<key>scope</key>
 			<string>markup.heading punctuation.definition.heading, entity.name.section</string>
@@ -539,22 +515,22 @@
 			<key>name</key>
 			<string>HTML/XML: Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.html, meta.tag, entity.other.attribute-name.xml</string>
+			<string>meta.tag, entity.name.type.html, entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f5c23f</string>
+				<string>#e0c255</string>
 			</dict>
 		</dict>
 		<dict>
             <key>name</key>
             <string>HTML/XML: String</string>
             <key>scope</key>
-            <string>string.quoted.double.html, string.quoted.single.html, string.quoted.double.xml, string.quoted.single.xml</string>
+            <string>punctuation.definition.string.html, string.quoted.double.html, string.quoted.single.html, punctuation.definition.string.xml, string.quoted.double.xml, string.quoted.single.xml</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#9da5cc</string>
+                <string>#b2b9bc</string>
             </dict>
         </dict>
         <dict>
@@ -719,17 +695,6 @@ punctuation.terminator.rule.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: ID</string>
-			<key>scope</key>
-			<string>entity.other.attribute-name.id.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a7cc4f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>CSS: Properties</string>
 			<key>scope</key>
 			<string>support.type.property-name.css</string>
@@ -755,7 +720,7 @@ punctuation.terminator.rule.css</string>
 			<key>name</key>
 			<string>JS: Helper</string>
 			<key>scope</key>
-			<string>punctuation.terminator.statement.js,  punctuation.definition.parameters.js</string>
+			<string>entity.name.tag.script.html, punctuation.terminator.statement.js,  punctuation.definition.parameters.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

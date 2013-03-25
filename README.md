@@ -5,8 +5,7 @@ Custom UI theme for Sublime Text 2/3.
 ## Design
 
 ![Failcoder Theme JS](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-js.png?raw=true)
-![Failcoder Theme CSS](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-css.png?raw=true)
-![Failcoder Theme HTML](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-html.png?raw=true)
+New colors added, updated screenshot coming soon.
 
 ## Installation
 

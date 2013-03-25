@@ -142,18 +142,18 @@
 			<key>name</key>
 			<string>Variables</string>
 			<key>scope</key>
-			<string>variable</string>
+			<string>variable, punctuation.definition.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#db4f35</string>
+				<string>#cf5a3f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Function Variables</string>
 			<key>scope</key>
-			<string>punctuation.definition.variable, variable.parameter.function</string>
+			<string>variable.parameter.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -582,7 +582,7 @@
 			<key>name</key>
 			<string>PHP: Attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.js, entity.other.attribute-name.css</string>
+			<string>entity.other.attribute-name.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

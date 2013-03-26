@@ -4,7 +4,9 @@ Custom UI theme for Sublime Text 2/3.
 
 ## Design
 
+![Failcoder Theme HTML](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-html.png?raw=true)
 ![Failcoder Theme JS](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-js.png?raw=true)
+![Failcoder Theme CSS](https://github.com/failcoder/failcoder-theme/blob/master/Screens/failcoder-theme-css.png?raw=true)
 
 New colors added, updated screenshot coming soon.
 
@@ -14,20 +16,20 @@ Failcoder theme is designed to work with the latest [development build](http://w
 
 ### Using Sublime Package Control
 
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you will SOON be able to install Failcoder Theme via the `Package Control: Install Package` menu item. The Failcoder Theme package will be listed as `Failcoder Color Scheme` in the packages list.
+If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you will SOON be able to install Failcoder Theme via the 'Package Control: Install Package' menu item. The Failcoder Theme package will be listed as 'Failcoder Color Scheme' in the packages list.
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Failcoder`
-* Copy the folder to your Sublime Text 2 `Packages` directory
+* Unzip the files and rename the folder to 'Theme - Failcoder'
+* Copy the folder to your Sublime Text 2 'Packages' directory
 
 ## Activating the theme
 
 To configure Sublime Text 2/3 to use the theme:
 
-* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Failcoder.sublime-theme"`
+* Open your User Settings Preferences file 'Sublime Text 2 -> Preferences -> Settings - User'
+* Add (or update) your theme entry to be '"theme": "Failcoder.sublime-theme"'
 
 ### Example User Settings
 
@@ -35,8 +37,8 @@ To configure Sublime Text 2/3 to use the theme:
         "theme": "Failcoder.sublime-theme"
     }
 
-* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
-* Enable the colour scheme via `Preferences -> Color Scheme -> User`
+* Unzip and place the extracted 'tmtheme' files in the Sublime Text 2 'Packages/User' folder
+* Enable the colour scheme via 'Preferences -> Color Scheme -> User'
 
 ### Code Font
 

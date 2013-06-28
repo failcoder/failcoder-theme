@@ -361,7 +361,7 @@
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid.illegal, invalid.deprecated, string.unquoted</string>
+			<string>invalid.illegal, invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -370,6 +370,21 @@
 				<string>#ffffff</string>
 				<key>fontStyle</key>
 				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CDATA</string>
+			<key>scope</key>
+			<string>string.unquoted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2b2e32</string>
+				<key>foreground</key>
+				<string>#828f97</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>

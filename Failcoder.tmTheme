@@ -11,15 +11,15 @@
 	<key>gutterSettings</key>
 	<dict>
 		<key>background</key>
-		<string>#191919</string>
+		<string>#06090C</string>
 		<key>divider</key>
-		<string>#393939</string>
+		<string>#303437</string>
 		<key>foreground</key>
-		<string>#b4b3a9</string>
+		<string>#73797b</string>
 		<key>selectionBackground</key>
-		<string>#515151</string>
+		<string>#21A2FF</string>
 		<key>selectionForeground</key>
-		<string>#a09f93</string>
+		<string>#16191C</string>
 	</dict>
 	<key>settings</key>
 	<array>
@@ -27,17 +27,27 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#292929</string>
+				<string>#26292C</string>
 				<key>caret</key>
 				<string>#d3d0c8</string>
 				<key>foreground</key>
 				<string>#d3d3d3</string>
 				<key>invisibles</key>
-				<string>#747369</string>
+				<string>#7a8288</string>
 				<key>lineHighlight</key>
-				<string>#444444</string>
+				<string>#21A2FF</string>
 				<key>selection</key>
-				<string>#515151</string>
+				<string>#3C3F42</string>
+				<key>inactiveSelection</key>
+				<string>#3C3F42</string>
+				<key>findHighlight</key>
+				<string>#ffe792</string>
+				<key>gutterForeground</key>
+				<string>#53595b</string>
+				<key>guide</key>
+				<string>#3C3F42</string>
+				<key>activeGuide</key>
+				<string>#3C3F42</string>
 			</dict>
 		</dict>
 <!-- =GENERAL SETTINGS==================================== -->
@@ -73,7 +83,7 @@
 				<key>foreground</key>
 				<string>#555555</string>
 				<key>background</key>
-				<string>#252525</string>
+				<string>#222528</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -361,7 +371,7 @@
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid.illegal, invalid.deprecated</string>
+			<string>invalid, invalid.illegal, invalid.deprecated</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
@@ -396,6 +406,20 @@
 			<dict>
 				<key>foreground</key>
 				<string>#cf5f23</string>
+			</dict>
+		</dict>
+<!-- =TWIG SETTINGS==================================== -->
+		<dict>
+			<key>name</key>
+			<string>Twig Content</string>
+			<key>scope</key>
+			<string>punctuation.section.tag.twig, meta.tag.template.block.twig, meta.tag.template.value.twig, keyword.control.twig, support.function.twig, punctuation.separator.object.twig, variable.other.twig, variable.other.property.twig, meta.array.twig, meta.hash.twig, meta.function-call.twig, meta.function-call.other.twig, meta.function.arguments.twig, meta.tag.inline.any.twig, constant.language.twig, constant.numeric.twig, string.quoted.single.twig, string.quoted.double.twig</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#303137</string>
+				<key>foreground</key>
+				<string>#9fa0ad</string>
 			</dict>
 		</dict>
 <!-- =DOM SETTINGS==================================== -->
@@ -471,57 +495,37 @@
 <!-- =GLOBAL SETTINGS==================================== -->
 		<dict>
 			<key>name</key>
+			<string>Keywords</string>
+			<key>scope</key>
+			<string>keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#67a0ff</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Special Keywords</string>
+			<key>scope</key>
+			<string>keyword.other.new</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff0f00</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Functions</string>
 			<key>scope</key>
-			<string>entity.name.function, meta.function-call, meta.require</string>
+			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a5bed3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variables</string>
-			<key>scope</key>
-			<string>variable</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#f26f4f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable Object</string>
-			<key>scope</key>
-			<string>entity.name.type.object</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a56ee3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Variable Property</string>
-			<key>scope</key>
-			<string>variable.other.property</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#a5bed3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Classes</string>
-			<key>scope</key>
-			<string>entity.name.class, keyword.operator.new</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#efd648</string>
+				<string>#a6ed74</string>
 			</dict>
 		</dict>
 		<dict>
@@ -532,9 +536,51 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88ddff</string>
-				<key>background</key>
-				<string>#3f3f3f</string>
+				<string>#ffff00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variables</string>
+			<key>scope</key>
+			<string>variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff5f2e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Property</string>
+			<key>scope</key>
+			<string>variable.other.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a0c1e5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>meta.function-call, meta.require</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#a0c1e5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Classes</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -545,31 +591,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#afef5f</string>
-				<key>background</key>
-				<string>#3f3f3f</string>
+				<string>#5fef5f</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
-			<string>storage</string>
+			<string>storage, storage.type.class, storage.type.method, storage.type.module, storage.modifier.extends, storage.modifier.global, storage.modifier.implements</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a5bed3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Storage Modifier</string>
-			<key>scope</key>
-			<string>storage.modifier, storage.type.user-defined</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
+				<string>#ff990c</string>
 			</dict>
 		</dict>
 		<dict>
@@ -580,18 +613,20 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#bf92ff</string>
+				<string>#886dff</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Keywords</string>
+			<string>Storage Declaration</string>
 			<key>scope</key>
-			<string>keyword</string>
+			<string>storage.modifier</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#7fafff</string>
+				<string>#ac93ff</string>
 			</dict>
 		</dict>
 <!-- =LIBRARY DETECTION==================================== -->
@@ -603,7 +638,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#a5bed3</string>
+				<string>#2095f0</string>
 			</dict>
 		</dict>
 		<dict>

@@ -50,6 +50,20 @@
 				<string>#3C3F42</string>
 			</dict>
 		</dict>
+<!-- =PLUGIN SETTINGS==================================== -->
+		<dict>
+	        <key>name</key>
+	        <string>WordHighlight</string>
+	        <key>scope</key>
+	        <string>wordhighlight</string>
+	        <key>settings</key>
+	        <dict>
+	            <key>foreground</key>
+	            <string>#EDF2E9</string>
+				<key>background</key>
+	            <string>#00ED2B</string>
+	        </dict>
+	    </dict>
 <!-- =GENERAL SETTINGS==================================== -->
 		<dict>
 			<key>name</key>

@@ -29,7 +29,7 @@
 				<key>background</key>
 				<string>#26292C</string>
 				<key>caret</key>
-				<string>#FFAC00</string>
+				<string>#33FF00</string>
 				<key>foreground</key>
 				<string>#d3d3d3</string>
 				<key>invisibles</key>
@@ -59,9 +59,9 @@
 	        <key>settings</key>
 	        <dict>
 	            <key>foreground</key>
-	            <string>#FF3300</string>
+	            <string>#00FF00</string>
 				<key>background</key>
-	            <string>#000000</string>
+	            <string>#3333CC</string>
 	        </dict>
 	    </dict>
 	    <dict>

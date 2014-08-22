@@ -1036,6 +1036,73 @@
 				<string>#df7925</string>
 			</dict>
 		</dict>
+<!-- =LESS SETTINGS==================================== -->
+		<dict>
+			<key>name</key>
+			<string>css.id</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E5D56D</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css.class</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A0C25F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>less.mixin</string>
+			<key>scope</key>
+			<string>entity.other.less.mixin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98E124</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>less.variable</string>
+			<key>scope</key>
+			<string>variable.declaration.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FEB55A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css.element</string>
+			<key>scope</key>
+			<string>keyword.control.html.elements</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DA4632</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>css.string</string>
+			<key>scope</key>
+			<string>meta.attribute-selector.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF950A</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>ba649a03-b2fb-46e8-9ad1-20b4f2307448</string>

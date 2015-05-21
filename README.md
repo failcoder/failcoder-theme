@@ -1,6 +1,6 @@
 # Failcoder - Theme
 
-Custom UI theme for Sublime Text 2/3.
+Custom syntax coloring scheme for Sublime Text 3.
 
 ## Design
 
@@ -12,7 +12,7 @@ New colors added, updated screenshot coming soon.
 
 ## Installation
 
-Failcoder theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2/3.
+Failcoder theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 3.
 
 ### Using Sublime Package Control
 
@@ -26,7 +26,7 @@ If you are using Will Bond's excellent [Sublime Package Control](http://wbond.ne
 
 ## Activating the theme
 
-To configure Sublime Text 2/3 to use the theme:
+To configure Sublime Text 3 to use the theme:
 
 * Open your User Settings Preferences file 'Sublime Text 2 -> Preferences -> Settings - User'
 * Add (or update) your theme entry to be '"theme": "Failcoder.sublime-theme"'
